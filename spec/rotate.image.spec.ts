@@ -1,7 +1,7 @@
 import { expect, test } from "bun:test";
 import { rotateImage } from "../problems/rotate.image";
 
-test("rotateImage should rotate an image clockwise ", () => {
+test("rotateImage should rotate an image clockwise", () => {
   expect(rotateImage([
     [1, 2, 3, 4],
     [4, 5, 6, 5],
