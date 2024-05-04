@@ -1,6 +1,5 @@
 
-
-export function transposeMatrix(matrix: Array<Array<number>>): Array<Array<number>> {
+export function transposeMatrix(matrix: number[][]): number[][] {
   const matrixLen = matrix.length;
   const innerLen = matrix[0].length;
   const transposed: number[][] = [];

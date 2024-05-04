@@ -10,7 +10,7 @@ test("transposeMatrix should transpose a matrix correctly 1", () => {
     [1, 4, 7],
     [2, 5, 8],
     [3, 6, 9],
-    [4, 5, 3],
+    [4, 5, 3]
   ]);
 });
 
@@ -22,6 +22,6 @@ test("transposeMatrix should transpose a matrix correctly 2", () => {
   ])).toEqual([
     [1, 4, 7],
     [3, 6, 9],
-    [4, 5, 3],
+    [4, 5, 3]
   ]);
 });
